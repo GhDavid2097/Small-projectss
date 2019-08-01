@@ -15,6 +15,7 @@ p {
 .sec-nav .container {
 	padding-top: 18px;
 	padding-bottom: 18px;
+	/*padding-left: 0;*/
 }
 .sec-nav .p-sec-nav {
 	display: inline-block;
@@ -29,13 +30,27 @@ p {
 	background-color: #ecc731;
 }
 
+.main-nav .mb-3 {
+	margin-bottom: 0;
+	width: 50%;
+}
 /* 
 	SECTION 1 
 */
 .section1 {
 	background-color: #f2ede9;
 }
+.section1 .container {
+	padding: 25px 0 12px 0;
+}
 
+.section1 .noPaddingLeft {
+	padding-left: 0;
+}
+
+.section1 .widget-head h1 {
+	margin-bottom: 0;
+}
 .section1 .breadcrumb {
 	background-color: transparent;
 	padding-left: 0;
@@ -48,7 +63,8 @@ p {
 	text-decoration: none;
 }
 .section1 ol > li > a:hover {
-	
+	color: #000;
+	font-weight: bold;
 }
 
 
