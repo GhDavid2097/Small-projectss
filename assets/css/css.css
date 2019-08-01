@@ -26,6 +26,7 @@ p {
 */
 .main-nav {
 	color: #000;
+	background-color: #ecc731;
 }
 
 .main-nav .container, 
@@ -36,8 +37,9 @@ p {
 	padding-left: 0;
 }
 
-.main-nav {
-	background-color: #ecc731;
+.main-nav .nav-item a:hover {
+	color: #000;
+	font-weight: bold;
 }
 
 .main-nav .mb-3 {
@@ -264,9 +266,7 @@ p {
 	font-size 
 */
 
-body .sec-nav 
-
-body .main-nav .nav-link {
+.main-nav .navbar .nav-item a {
 	color: #000;
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
