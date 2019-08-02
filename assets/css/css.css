@@ -70,8 +70,6 @@ p {
     border-color: #ecc731;
 }
 
-
-
 /*
 	MAIN NAV 
 */
@@ -87,16 +85,10 @@ p {
 	padding: 0;
 }
 .main-nav .nav-item .nav-link {
-	padding-top: 0;
-	padding-bottom: 0;
+	padding: 14px 21px;
 }
-
 .main-nav .nav-item:first-child .nav-link {
 	padding-left: 0;
-}
-.main-nav .navbar-nav .nav-link {
-	padding-left: 0;
-	margin-right: 42px;
 }
 
 .main-nav .navbar .nav-item a { 
@@ -106,10 +98,8 @@ p {
 
 .main-nav .navbar .nav-item a:hover,
 .main-nav .navbar .dropdown a:hover {
-	padding: 0 5px;
-	background-color: #000;
+	text-decoration: underline;
 	color: #fff;
-	border-radius: 25%;
 }
 
 .main-nav .btn-secondary,
@@ -127,6 +117,10 @@ p {
     font-size: 14px;
     border-radius: 0;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.main-nav .btn-secondary {
+	padding: 14px 21px;
 }
 
 .main-nav .form-control {
@@ -179,10 +173,6 @@ p {
 }
 .section1 .container {
 	padding: 50px 0 40px 0;
-}
-
-#noPaddingLeft {
-	padding-left: 0;
 }
 
 .section1 .widget-head h1 {
@@ -481,9 +471,9 @@ body .section2 .widget-bod-2 p {
     box-shadow: 0 0 0 0 transparent;
 }
 
- @media (min-width: 992px) {
+/*  @media (min-width: 992px) {
 	.navbar-expand-lg .navbar-nav .nav-link {
 	    padding-right: 0;
 	    padding-left: 0;
 	}
-}
+} */
