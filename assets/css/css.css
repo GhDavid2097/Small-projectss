@@ -29,14 +29,25 @@ p {
 	background-color: #ecc731;
 }
 
-.main-nav .container, 
-.main-nav .navbar {
-	padding-left: 0;
-	padding-right: 0;
+.main-nav .container {
+	padding: 5px 0;
 }
+.main-nav .navbar {
+	padding: 0;
+}
+.main-nav .nav-item .nav-link {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
 .main-nav .nav-item:first-child .nav-link {
 	padding-left: 0;
 }
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-left: 0;
+	padding-right: 42px;
+}
+
 
 .main-nav .nav-item a:hover {
 	color: #000;
@@ -54,7 +65,7 @@ p {
 	background-color: #f2ede9;
 }
 .section1 .container {
-	padding: 25px 0 12px 0;
+	padding: 50px 0 40px 0;
 }
 
 .section1 .noPaddingLeft {
@@ -283,9 +294,20 @@ p {
 */
 
 .main-nav .navbar .nav-item a {
-	color: #000;
+	color: #26211d;
 	font-family: 'Lato', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
+}
+
+body .section1 .widget-head .title {
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+body .section1 .widget-head .breadcrumb-item {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
 }
 
 body .section2 .widget-head-2 .title {
@@ -307,7 +329,8 @@ body .section2 .widget-bod-2 p {
 	font-weight: 700;
 	font-size: 18px;
 }
-.footer-section-1 .widget-head .specialTitle {
+.footer-section-1 .widget-head .specialTitle,
+.sec-nav .p-sec-nav {
 	color: #fff;
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
