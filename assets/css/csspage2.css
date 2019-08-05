@@ -220,6 +220,13 @@ p {
 	SECTION 2 
 */
 
+/* 
+	SECTION 5
+*/
+
+.section5 {
+	background-color: #f2ede9;
+}
 
 /* 	
 	FOOTER
@@ -451,7 +458,27 @@ body .section2 .widget-body-2 p {
 	}
 } */
 
-/* .section-2 .widget-body .colelement .placeholderProgress {
+.section2 .square {
 	padding-bottom: 75%;
-	color: #f2ede9;
-} */
+	background-color: #f2ede9;
+}	
+
+.square {
+  margin: 20px;
+  position: relative;
+  border-bottom: 4px solid gold;
+}
+
+.square:after {
+  position: absolute;
+  background: red;
+  height: 4px;
+  content: '';
+  width: 72%;
+  bottom: -4px;
+  left: 0;
+}
+
+.section2 .widget-footer .generic-text p:first-child {
+	color: red;
+}
