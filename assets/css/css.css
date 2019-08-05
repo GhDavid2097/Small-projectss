@@ -91,18 +91,12 @@ p {
 	padding-left: 0;
 }
 
-.main-nav .nav-item a { 
-  	color: #fff;
-  	cursor: pointer;
-}
-
-.main-nav .nav-item a:hover {
-	color: #fff;
-}
 .main-nav .navbar-nav .dropdown a:hover {
 	color: #26211d;
 }
 
+.main-nav .navbar-nav #noPaddingLeft:hover,
+.main-nav .navbar-nav .nav-item .nav-link:hover,
 .main-nav .navbar-nav .dropdown .nav-link:focus, 
 .main-nav .navbar-nav .dropdown .nav-link:hover {
     color: #fff;
@@ -234,7 +228,7 @@ p {
 }
 .section1 ol > li > a:hover {
 	color: #000;
-	font-weight: bold;
+	text-decoration: underline;
 }
 
 
@@ -464,6 +458,7 @@ p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-size: 14px;
+	cursor: pointer;
 }
 
 body .section1 .widget-head .title {
@@ -516,6 +511,7 @@ body .section2 .widget-bod-2 p {
     background-color: transparent;
     border-color: transparent;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active, 
