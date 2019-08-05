@@ -91,18 +91,61 @@ p {
 	padding-left: 0;
 }
 
-.main-nav .navbar .nav-item a { 
+.main-nav .nav-item a { 
   	color: #fff;
   	cursor: pointer;
 }
 
-.main-nav .navbar .nav-item a:hover,
-.main-nav .navbar .dropdown a:hover {
-	text-decoration: underline;
+.main-nav .nav-item a:hover {
 	color: #fff;
 }
+.main-nav .navbar-nav .dropdown a:hover {
+	color: #26211d;
+}
 
-.main-nav .btn-secondary,
+.main-nav .navbar-nav .dropdown .nav-link:focus, 
+.main-nav .navbar-nav .dropdown .nav-link:hover {
+    color: #fff;
+}
+
+.main-nav .btn-secondary:focus {
+	box-shadow: none;
+} 
+
+.main-nav .navbar-nav .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.main-nav .navbar-nav .dropdown-menu {
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    box-shadow: none;
+    z-index: 1;
+    margin: 0;
+    /* transform: translateY(-2px); */
+}
+
+.main-nav .navbar-nav .dropdown-menu a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.main-nav .navbar-nav .dropdown-menu a:hover {
+	background-color: #ddd;
+}
+
+.main-nav .navbar-nav .dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.main-nav .navbar-nav .dropdown:hover #navbarDropdwon {
+	background-color: #3e8e41;
+}
+
+.main-nav .dropdown-toggle,
 .main-nav .nav-link {
     color: #26211d;
     background-color: #6c757d;
@@ -308,8 +351,16 @@ p {
 	padding-left: 0;
 }
 
-.footer-section-1 .widget-links li:not(:last-child) {
-	padding-bottom: 30px;
+
+.footer-section-1 .widget-links li {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.footer-section-1 .widget-links li:first-child { 
+	padding-top: 0;	
+}
+.footer-section-1 .widget-links li:last-child {
+	padding-bottom: 0;
 }
 .footer-section-1 .widget-links li > a {
 	border-bottom-width: 0;
@@ -366,8 +417,16 @@ p {
 	color: #ecc731;
 }
 
+
 .footer-section-1 .widget-body-2 a span {
-	padding-right: 25px;
+	padding-right: 12px;
+	padding-left: 12px;
+}
+.footer-section-1 .widget-body-2 a:first-child span { 
+	padding-left: 0;	
+}
+.footer-section-1 .widget-body-2 a:last-child span {
+	padding-right: 0;
 }
 .footer-section-1 .widget-body-2 a:hover {
 	text-decoration: none;
