@@ -1,9 +1,36 @@
-p { 
-	margin-bottom: 0;
-}
 /* 
 	BODY 
 */
+
+p { 
+	margin-bottom: 0;
+}
+
+/* 
+	PSEUDO BUTTONS FOR CAROUSEL 
+*/
+.horizontalDots {
+	display: inline-block;
+} 
+.dotButton {
+	background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
+.dotButton span {
+	background-color: red;
+	width: 12px;
+	height: 12px;
+	display: block;
+	border-radius: 50%;
+	margin: 3px 4px;
+	transition: background-color 0.6s ease;
+}
+.dotButton span:hover {
+	background-color: #717171;
+}
 
 /* 
 	SECOND NAV 
@@ -216,29 +243,6 @@ p {
 	margin-bottom: 0;
 }
 
-.section1 .horizontalDots {
-	display: inline-block;
-}
-.section1 .dotButton {
-	background: 0 0;
-    color: inherit;
-    border: none;
-    padding: 0!important;
-    font: inherit;
-}
-.section1 .dotButton span {
-	background-color: red;
-	width: 12px;
-	height: 12px;
-	display: block;
-	border-radius: 50%;
-	margin: 3px 4px;
-	transition: background-color 0.6s ease;
-}
-.section1 .dotButton span:hover {
-	background-color: #717171;
-}
-
 /* 
 	SECTION 2 
 */
@@ -268,11 +272,37 @@ p {
 	color: red;
 }
 
-/* 
-	SECTION 5
+/* 	
+	SECTION 3
 */
 
-.section5 {
+.section3 {
+	background-color: lightblue;
+}
+
+.section3 .widget-body ul {
+	padding: 0;
+	list-style-type: none;
+}
+.section3 .widget-body ul li {
+	position: relative;
+	padding-left: 70px;
+    border-left: 2px solid;
+
+}
+.section3 .widget-body ul li a {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: red;
+	font-size: 48px;
+}
+
+/* 
+	SECTION 4
+*/
+
+.section4 {
 	background-color: #f2ede9;
 }
 
@@ -410,7 +440,6 @@ p {
 .icon-home4:before {
   content: "\1f50d";
 }
-
 
 /* 	font-family
 	font-size 
