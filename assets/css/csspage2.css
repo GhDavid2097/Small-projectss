@@ -9,6 +9,7 @@ p {
 pre {
 	overflow: visible;
 }
+
 /* 
 	PSEUDO BUTTONS FOR CAROUSEL 
 */
@@ -250,9 +251,22 @@ pre {
 	SECTION 2 
 */
 
+.section2 .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+.section2 .row > [class*='col-'] {
+	 display: flex;
+	 flex-direction: column; 
+}
+
 .section2 .square {
 	/* padding-bottom: 75%; */
 	background-color: #f2ede9;
+	height: 200px;
+	width: 200px;
 }	
 
 .section2 .square {
@@ -260,6 +274,15 @@ pre {
   position: relative;
   border-bottom: 4px solid gold;
 }
+.section2 .square p {
+		display: -ms-flexbox;
+    display: flex;
+  	-ms-flex-pack: center;
+	justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 
 .section2 .square:after {
   position: absolute;
