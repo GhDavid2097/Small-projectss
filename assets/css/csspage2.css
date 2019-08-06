@@ -6,6 +6,9 @@ p {
 	margin-bottom: 0;
 }
 
+pre {
+	overflow: visible;
+}
 /* 
 	PSEUDO BUTTONS FOR CAROUSEL 
 */
@@ -233,7 +236,7 @@ p {
 	SECTION 1 
 */
 .section1 {
-	background-color: #f2ede9;
+	background-color: #faf7f5;
 }
 .section1 .container {
 	padding: 50px 0 40px 0;
@@ -277,7 +280,7 @@ p {
 */
 
 .section3 {
-	background-color: lightblue;
+	background-color: rgba(250, 247, 245, 0.7);
 }
 
 .section3 .squareCentering {
@@ -292,21 +295,34 @@ p {
 }
 .section3 .widget-body ul li {
 	position: relative;
-	padding-left: 70px;
-    border-left: 2px solid;
+	display: inline-block;
+	padding-left: 97px;
 
 }
 .section3 .widget-body ul li a {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
+	width: 68px;
+	height: 68px;
 	background-color: red;
-	font-size: 48px;
+	display: -ms-flexbox;
+    display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.section3 .widget-body ul li a:hover {
+	text-decoration: none;
+}
+.section3 .widget-body ul li a .icon-home3 {
+	font-size: 32px;
 }
 
 .section3 .widget-body .square {
-    padding-bottom: 35%;
-	background-color: #f2ede9;
+    padding-bottom: 45%;
+	background-color: #e3d0c1;
 	margin-bottom: 20px;
 }
 
@@ -315,7 +331,32 @@ p {
 */
 
 .section4 {
+	background-color: #faf7f5;
+}
+
+/* 	
+	SECTION 5
+*/
+
+.section5 {
+	
+}
+
+.section5 .square {
+	padding-bottom: 75%;
 	background-color: #f2ede9;
+}	
+
+.section5 .square {
+  margin: 20px;
+}
+
+/* 	
+	SECTION 6
+*/
+
+.section6 {
+	background-color: #403e3c;
 }
 
 /* 	
