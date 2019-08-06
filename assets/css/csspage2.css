@@ -10,31 +10,6 @@ pre {
 	overflow: visible;
 }
 
-/* 
-	PSEUDO BUTTONS FOR CAROUSEL 
-*/
-.horizontalDots {
-	display: inline-block;
-} 
-.dotButton {
-	background: 0 0;
-    color: inherit;
-    border: none;
-    padding: 0!important;
-    font: inherit;
-}
-.dotButton span {
-	background-color: red;
-	width: 12px;
-	height: 12px;
-	display: block;
-	border-radius: 50%;
-	margin: 3px 4px;
-	transition: background-color 0.6s ease;
-}
-.dotButton span:hover {
-	background-color: #717171;
-}
 
 /* 
 	SECOND NAV 
@@ -240,13 +215,43 @@ pre {
 	background-color: #faf7f5;
 }
 .section1 .container {
-	padding: 50px 0 40px 0;
+	padding-top: 50px;
 }
 
 .section1 .widget-head h1 {
 	margin-bottom: 0;
 }
 
+/* 
+	PSEUDO BUTTONS FOR CAROUSEL 
+*/
+.section1 .horizontalDots {
+	display: inline-block;
+} 
+.section1 .dotButton {
+	background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
+.section1 .dotButton:focus {
+	outline: none;
+}
+
+.section1 .dotButton span {
+	background-color: transparent;
+	width: 12px;
+	height: 12px;
+	display: block;
+	border-radius: 50%;
+	border: 2px solid #ecc731;
+	margin: 85px 4px 41px;
+	transition: background-color 0.6s ease;
+}
+.section1 .dotButton span:hover {
+	background-color: #ecc731;
+}
 /* 
 	SECTION 2 
 */
@@ -296,6 +301,37 @@ pre {
 
 .section2 .widget-footer .generic-text p:first-child {
 	color: red;
+}
+
+/* 
+	PSEUDO BUTTONS FOR CAROUSEL 
+*/
+.section2 .horizontalDots {
+	display: inline-block;
+} 
+.section2 .dotButton {
+	background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
+.section2 .dotButton:focus {
+	outline: none;
+}
+
+.section2 .dotButton span {
+	background-color: transparent;
+	width: 12px;
+	height: 12px;
+	display: block;
+	border-radius: 50%;
+	border: 2px solid #4d4641;
+	margin: 3px 4px;
+	transition: background-color 0.6s ease;
+}
+.section2 .dotButton span:hover {
+	background-color: #4d4641;
 }
 
 /* 	
@@ -380,6 +416,38 @@ pre {
 
 .section6 {
 	background-color: #403e3c;
+}
+
+/* 
+	PSEUDO BUTTONS FOR CAROUSEL 
+*/
+.section6 .horizontalDots {
+	display: inline-block;
+} 
+.section6 .dotButton {
+	background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
+.section6 .dotButton:focus {
+	outline: none;
+}
+
+.section6 .dotButton span {
+	background-color: transparent;
+	width: 12px;
+	height: 12px;
+	display: block;
+	border-radius: 50%;
+	border: 2px solid #8f8b89;
+	margin: 3px 4px;
+	transition: background-color 0.6s ease, border-color 0.6s ease;
+}
+.section6 .dotButton span:hover {
+	background-color: #ecc731;
+	border-color: #ecc731;
 }
 
 /* 	
