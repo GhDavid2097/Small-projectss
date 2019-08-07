@@ -1,5 +1,5 @@
 /* 
-	BODY 
+	GENERAL 
 */
 
 p { 
@@ -12,6 +12,17 @@ pre {
 
 .container {
 	padding-left: 0;
+}
+
+.widget-head h2 span {
+	font-weight: 700;
+	font-size: 30px;
+	/* text-decoration: underline;
+	text-decoration-color: #ecc731; */
+	padding-bottom: 5px;
+	box-shadow: 1px 3px 0px -1px rgba(236,199,49,0.74);
+	-webkit-box-shadow: 1px 3px 0px -1px rgba(236,199,49,0.74);
+	-moz-box-shadow: 1px 3px 0px -1px rgba(236,199,49,0.74);
 }
 /* 
 	SECOND NAV 
@@ -28,10 +39,6 @@ pre {
 
 .sec-nav .p-sec-nav {
 	display: inline-block;
-}
-
-#noPaddingRight {
-	padding-right: 0;
 }
 
 .sec-nav .anchorIcons {
@@ -337,17 +344,6 @@ pre {
 
 .section2 .widget .title {
 	text-align: center;
-}
-
-.section2 .widget-text .widget-head h2 span {
-	font-weight: 700;
-	font-size: 30px;
-	/* text-decoration: underline;
-	text-decoration-color: #ecc731; */
-	padding-bottom: 5px;
-	box-shadow: 1px 3px 0px -1px rgba(236,199,49,0.74);
-	-webkit-box-shadow: 1px 3px 0px -1px rgba(236,199,49,0.74);
-	-moz-box-shadow: 1px 3px 0px -1px rgba(236,199,49,0.74);
 }
 
 .section2 .widget-footer .generic-text p:first-child {
