@@ -280,7 +280,7 @@ pre {
   border-bottom: 4px solid gold;
 }
 .section2 .square p {
-		display: -ms-flexbox;
+	display: -ms-flexbox;
     display: flex;
   	-ms-flex-pack: center;
 	justify-content: center;
@@ -342,12 +342,6 @@ pre {
 	background-color: rgba(250, 247, 245, 0.7);
 }
 
-.section3 .squareCentering {
-	position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
 .section3 .widget-body ul {
 	padding: 0;
 	list-style-type: none;
@@ -379,10 +373,13 @@ pre {
 	font-size: 32px;
 }
 
-.section3 .widget-body .square {
-    padding-bottom: 45%;
-	background-color: #e3d0c1;
-	margin-bottom: 20px;
+.section3 .placeholderCentering {
+	display: -ms-flexbox;
+    display: flex;
+  	-ms-flex-pack: center;
+	justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 /* 
