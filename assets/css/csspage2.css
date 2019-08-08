@@ -337,7 +337,7 @@ pre {
 
 .section2 .row {
 	display: -webkit-box;
-	display: -webkit-flex;
+	display: -webkit-flex;s
 	display: -ms-flexbox;
 	display:         flex;
 }
@@ -446,7 +446,16 @@ pre {
 */
 
 .section3 {
-	background-color: rgba(250, 247, 245, 0.7);
+	background-color: lightblue;/* rgba(250, 247, 245, 0.7); */
+}
+
+.section3 .container {
+	padding-bottom: 130px;
+	padding-top: 20px;
+}
+
+.section3 .widget-head .title {
+	margin-bottom: 65px;
 }
 
 .section3 .widget-body ul {
@@ -478,6 +487,10 @@ pre {
 }
 .section3 .widget-body ul li a .icon-home3 {
 	font-size: 32px;
+}
+
+.section3 .widget-body .title {
+	text-align: left;
 }
 
 .section3 .placeholderCentering {
