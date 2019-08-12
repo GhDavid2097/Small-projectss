@@ -564,29 +564,25 @@ pre {
 */
 
 .section5 .container  {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 90px;
+	padding-bottom: 150px;
 }
 .section5 .widget-head h2 {
-	margin-bottom: 20px;
-}
-
-.section5 .widget-body .colelement img {
-	margin-bottom: 20px;
+	margin-bottom: 78px;
 }
 
 .section5 .widget-body h6 {
 	text-align: left;
-	margin-bottom: 20px;
+	margin-top: 28px;
 }
 
-.section5 .widget-body .date {
-	margin-bottom: 20px
+.section5 .widget-body .date,
+.section5 .widget-body h6 {
+	margin-bottom: 14px
 }
 
 .section5 .buttons {
-	margin-top: 20px;
-	text-align: center;
+	margin-top: 38px;
 }
 
 .section5 .btn-footer {
@@ -620,6 +616,33 @@ pre {
 
 .section6 {
 	background-color: #403e3c;
+}
+
+.section6 .container {
+	padding-top: 102px;
+	padding-bottom: 66px;	
+}
+
+.section6 .widget-head {
+	margin-bottom: 66px;
+}
+
+.section6 .widget-body .generic-text p {
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	font-style: italic;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin-bottom: 61px;
+}
+
+.section6 .client-name .title h4 {
+	margin-bottom: 0;
+	color: #fff;
+}
+.section6 .client-name .title p {
+	margin-bottom: 46px;
 }
 
 /* 
@@ -821,8 +844,17 @@ body .section1 .widget-body h1 {
 	font-size: 36px;
 }
 
-body .section2 .widget-head h2 {
+body .section2 .widget-head h2,
+body .section3 .widget-head h2,
+body .section4 .widget-body h2 {
 	color: #000;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+}
+
+body .section6 .widget-head h1 {
+	color: #fff;
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;
 	font-size: 30px;
