@@ -619,12 +619,12 @@ pre {
 }
 
 .section6 .container {
-	padding-top: 102px;
-	padding-bottom: 66px;	
+	padding-top: 94px;
+	padding-bottom: 58px;	
 }
 
 .section6 .widget-head {
-	margin-bottom: 66px;
+	margin-bottom: 54px;
 }
 
 .section6 .widget-body .generic-text p {
@@ -634,15 +634,17 @@ pre {
 	font-style: italic;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	margin-bottom: 61px;
+	margin-bottom: 48px;
 }
 
 .section6 .client-name .title h4 {
 	margin-bottom: 0;
+	font-weight: 300;
 	color: #fff;
 }
 .section6 .client-name .title p {
-	margin-bottom: 46px;
+	margin-bottom: 38px;
+	font-weight: 300;
 }
 
 /* 
