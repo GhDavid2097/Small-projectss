@@ -365,7 +365,7 @@ p {
 }
 .footer-section-1 .widget-links li > a:hover {
 	color: #ecc731;
-	font-weight: bold;
+	text-decoration: underline;
 }
 
 .footer-section-1 .widget-links li > a > span {
@@ -379,12 +379,8 @@ p {
 	color: #ecc731;
 }
 .footer-section-1 .widget-body .charitySpan:hover {
-	font-weight: bold;
+	text-decoration: underline;
 }
-.footer-section-1 .widget-body a:hover {
-	text-decoration: none;
-}
-
 .footer-section-1 .widget-body > p:nth-last-of-type(even) {
 	margin-bottom: 0;
 }
