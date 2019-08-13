@@ -1,4 +1,4 @@
-/* 
+a/* 
 	GENERAL 
 */
 
@@ -357,13 +357,31 @@ pre {
 	margin-bottom: 25px;
 }
 
-.section2 .placeholder-section2 .placeholder img {
+/* .section2 .placeholder-section2 .placeholder img {
 	margin-bottom: 10px
-}
+} */
 
 .section2 .placeholder-section2 .donations {
 	margin: 10px 0 14px;
 	text-align: center;
+}
+
+.section2 .placeholder-section2 .percentage {
+	margin-bottom: 0;
+	width: 72%;
+	position: relative;
+}
+
+.section2 .placeholder-section2 .percentage:after {
+	content: '72%';
+    position: absolute;
+    right: -20px;
+    top: -25px;
+}
+
+progress {
+	width: 360px;
+	height: 4px;
 }
 
 .section2 .placeholder-section2 .donations span,
