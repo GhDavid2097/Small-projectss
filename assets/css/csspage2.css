@@ -357,9 +357,9 @@ pre {
 	margin-bottom: 25px;
 }
 
-/* .section2 .placeholder-section2 .placeholder img {
-	margin-bottom: 10px
-} */
+.section2 .placeholder-section2 .placeholder img {
+	position: relative;
+}
 
 .section2 .placeholder-section2 .donations {
 	margin: 10px 0 14px;
@@ -373,15 +373,36 @@ pre {
 }
 
 .section2 .placeholder-section2 .percentage:after {
-	content: '72%';
+	content: attr(data-value)'%';
     position: absolute;
     right: -20px;
-    top: -25px;
+    top: -40px;
+    background-color: #ecc731;
+    padding: 5px;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
 }
 
-progress {
+.progress {
+	position: absolute;
 	width: 360px;
 	height: 4px;
+    background-color: #000;
+    border-radius: 0;
+}
+
+
+.section2 .placeholder-section2 .progress-bar {
+    width: 72%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #ecc731;
+    transition: width .6s ease;
 }
 
 .section2 .placeholder-section2 .donations span,
