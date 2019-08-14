@@ -68,21 +68,20 @@ pre {
 
 .sec-nav .btn {
 	display: inline-block;
-	
 	font-family: 'Lato', sans-serif;
 	font-weight: 900;
 	font-size: 12px;
-    
     text-align: center;
-    vertical-align: middle;
-
     white-space: nowrap;
-	user-select: none;
-    
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     border: 2px solid;
     padding: 10px 25px;
+    line-height: 1.5;
     border-radius: 0;
-    
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
@@ -91,7 +90,6 @@ pre {
     background-color: #ecc731;
     border-color: #ecc731;
 }
-
 /*
 	MAIN NAV 
 */
@@ -224,6 +222,7 @@ pre {
     outline: none;
     box-shadow: none;
 }
+
 /* 
 	SECTION 1 
 */
