@@ -860,12 +860,23 @@ pre {
 	background-color: transparent;
 	border-color: #595756;
 	height: auto;
+	color: #fff;
 }
 .footer-section-1 .btn {
 	border-color: #ecc731;
 	color: #ecc731;
 }
 
+.footer-section-1 .form-control:focus {
+    background-color: transparent;
+    border-color: #7c7c7c;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.25);
+}
+
+.footer-section-1 .widget-body-2 {
+	text-align: center;
+}
 
 .footer-section-1 .widget-body-2 a span {
 	padding-right: 12px;
@@ -996,7 +1007,7 @@ body .section5 .widget-head h2 {
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active, 
-.btn-secondary:not(:disabled):not(.disabled).active, 
+.btn-secondary:not(:disabled):not(.disabled):active, 
 .show > .btn-secondary.dropdown-toggle {
     color: #000;
     background-color: transparent;
@@ -1007,10 +1018,36 @@ body .section5 .widget-head h2 {
     box-shadow: 0 0 0 0 transparent;
 }
 
-/*  @media (min-width: 992px) {
-	.navbar-expand-lg .navbar-nav .nav-link {
-	    padding-right: 0;
-	    padding-left: 0;
-	}
+
+/*
+	RESPONSIVE
 } */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.section5 .widget-progress {
+		text-align: center;
+	}
+
+	.section5 .widget-body h6 {
+		text-align: center;
+	} 
+
+	.section5 .widget-body .col-lg-4:nth-child(2) {
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
+
+	.footer-section-1 .container {
+		padding: 50px 0;
+	}
+
+	.footer-section-1 .widget-links {
+		text-align: center;
+		margin-bottom: 35px;
+	}
+
+	.footer-section-1 .widget-links li > a {
+		display: inline-block;
+	}
+}
 
