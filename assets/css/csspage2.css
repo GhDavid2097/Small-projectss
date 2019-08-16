@@ -45,6 +45,7 @@ pre {
 
 .sec-nav .p-sec-nav {
 	display: inline-block;
+	margin-bottom: 0;
 }
 
 .sec-nav .anchorIcons {
@@ -104,6 +105,29 @@ pre {
 .main-nav .navbar {
 	padding: 0;
 }
+
+.main-nav .navbar .navbar-toggler {
+	border-color: #000;
+}
+
+.main-nav .navbar .icon-menu {;
+	display: -ms-flexbox;
+    display: flex;
+  	-ms-flex-pack: center;
+	justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.main-nav .navbar .icon-menu:before {
+	content: "\2630";
+	display: -ms-flexbox;
+    display: flex;
+  	-ms-flex-pack: center;
+	justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 .main-nav .nav-item .nav-link {
 	padding: 14px 21px;
 }
