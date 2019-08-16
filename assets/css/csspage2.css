@@ -220,7 +220,6 @@ pre {
 }
 
 .main-nav .form-control:focus {
-    color: transparent;
     background-color: transparent;
     border-color: rgba(0,0,0,0.2);
     outline: none;
