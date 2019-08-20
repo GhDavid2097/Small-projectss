@@ -793,9 +793,11 @@ pre {
 }
 
 .footer-section-1 .widget-head .title,
-.footer-section-1 .widget-head .specialTitle,
 .footer-section-1 .widget-head-1 .title {
 	margin-bottom: 50px
+}
+.footer-section-1 .widget-head .specialTitle {
+	margin-bottom: 40px;
 }
 
 .footer-section-1 .widget-head-2 .title {
