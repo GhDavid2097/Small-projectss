@@ -1078,6 +1078,16 @@ body .section5 .widget-body .dateSpan {
 		margin-top: 25px;
 	}
 
+	.footer-section-1 .widget-head .title, 
+	.footer-section-1 .widget-head-1 .title, 
+	.footer-section-1 .widget-head-2 .title {
+		text-align: center;
+	}
+
+	.footer-section-1 .widget-body-2 {
+		text-align: center;
+	}
+
 }
 
 @media (max-width: 767px) {
@@ -1142,6 +1152,16 @@ body .section5 .widget-body .dateSpan {
 
 	.footer-section-1 .widget-links li > a {
 		display: inline-block;
+	}
+
+	.footer-section-1 .widget-head .title, 
+	.footer-section-1 .widget-head-1 .title, 
+	.footer-section-1 .widget-head-2 .title {
+		text-align: center;
+	}
+
+	.footer-section-1 .widget-body-2 {
+		text-align: center;
 	}
 }
 
@@ -1222,6 +1242,16 @@ body .section5 .widget-body .dateSpan {
 	.footer-section-1 .widget-links li > a {
 		display: inline-block;
 	}
+
+	.footer-section-1 .widget-head .title, 
+	.footer-section-1 .widget-head-1 .title, 
+	.footer-section-1 .widget-head-2 .title {
+		text-align: center;
+	}
+
+	.footer-section-1 .widget-body-2 {
+		text-align: center;
+	}
 }
 
 
@@ -1244,6 +1274,10 @@ body .section5 .widget-body .dateSpan {
 	.section5 .widget-body .colelement a img {
 		width: 260px;
 		height: 180px;
+	}
+
+	.footer-section-1 .widget-body-2 {
+		text-align: center;
 	}
 }
 
